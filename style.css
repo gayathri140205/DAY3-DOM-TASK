@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #065d7c;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px; 
+}
+
+#description {
+    color: #0d2b2b;
+    text-align: center;
+}
+
+form {
+    max-width: 300px;
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #03333e;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+label[for="male"], label[for="female"] {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    color: #0c8b89;
+}
+
+select, input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid #ccc; 
+}
+
+select, input {
+    background-size: 12px;
+    background-position: right center;
+    padding-right: 20px;
+}
+
+option {
+    background-color: #fff;
+    color: #94bf1f;
+}
+
+select:focus, input:focus, textarea:focus {
+    outline: none;
+    border-color: #76cce4;
+    box-shadow: 0 0 5px rgba(114, 229, 235, 0.7);
+}
+
+button {
+    background-color: #22706d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b595f;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(35, 174, 179);
+    color: rgb(16, 5, 5);
+}
